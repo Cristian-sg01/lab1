@@ -27,7 +27,7 @@ const  displayPokemon = (pokemon) => {
 const pokemonSprite = document.createElement('img');
 
 try {
-  //pokemonSprite.src = pokemon.sprites.front_default; 
+  pokemonSprite.src = pokemon.sprites.front_default; 
 } catch (error) {
   console.error("Error al buscar Pokémon", error);
 }
